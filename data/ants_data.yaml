@@ -1,0 +1,8 @@
+path: C:/Users/hadar/Documents/database/videos/other/ants_dataset/split_data
+
+train: train/images
+val: val/images
+test: test/images  # Optional
+
+nc: 1  # Number of classes
+names: ['ant']  # Class names
