@@ -126,7 +126,7 @@ while True:
     # annotated_frame = counter.initialize_region(frame, tracks) 
 
     # match template
-    to_stable_frame = True
+    to_stable_frame = False
     if to_stable_frame:
         frame = back_shift(frame, prev_frame)
         prev_frame = frame.copy()
