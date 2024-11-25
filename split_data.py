@@ -1,6 +1,5 @@
 import os
 import shutil
-import random
 from sklearn.model_selection import train_test_split
 
 def split_dataset(images_dir, labels_dir, output_dir, train_ratio=0.7, val_ratio=0.2, test_ratio=0.1):
